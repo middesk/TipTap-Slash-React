@@ -1,17 +1,14 @@
 {
-  "name": "tiptap-slash-react",
-  "version": "1.1.4",
+  "name": "@middesk/tiptap-slash-react",
+  "version": "1.1.5",
   "description": "A Tiptap extension for slash commands in react",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/hamza2001-max/TipTap-Slash-React.git"
-  },
   "style": "dist/index.css",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "scripts": {
     "build": "tsc && rollup -c",
